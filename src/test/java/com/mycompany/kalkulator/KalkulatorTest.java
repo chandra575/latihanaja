@@ -15,7 +15,7 @@ public class KalkulatorTest {
     
     @Test
     public void testBEqualsZero() {
-        assertEquals(1, Kalkulator.CariNilaiPangkat(2, 0));
+        assertEquals(1, Kalkulator.CariNilaiPangkat(2, 10));
         assertEquals(1, Kalkulator.CariNilaiPangkat(0, 0));
     }
 
