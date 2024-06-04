@@ -44,4 +44,20 @@ public class Kalkulator {
             return result;
         }
     }
+
+    public static int CariNilaiPangka2(int a, int b) {
+        if (b == 0) {
+            return 1;
+        } else if (b < 0) {
+            return -1;
+        } else if (b > 10 || a > 100) {
+            return -2;
+        } else {
+            int result = 1;
+            for (int i = 0; i < b; i++) {
+                result *= a;
+            }
+            return result;
+        }
+    }
 }
