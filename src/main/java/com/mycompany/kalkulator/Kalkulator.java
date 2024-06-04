@@ -45,7 +45,7 @@ public class Kalkulator {
         }
     }
 
-    public static int CariNilaiPangkat(int a, int b) {
+    public static int CariNilaiPangkat2(int a, int b) {
         if (b == 0) {
             return 1;
         } else if (b < 0) {
